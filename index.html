@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="discription" content="Smart solution for your laundary problem">
+    <link rel="favicon icon" href="laundry.png" type="icon"/>
+    <link rel="stylesheet" href="style.css">
+    <meta property="og:url" content="https://laundryhub2u.netlify.app/" />
+    <meta property="og:image" content="Laundary.jpg" />"
     <title>Laundry Mart</title>
 </head>
 <body>
@@ -14,7 +18,7 @@
     <main>
         <p>Welcome to Laundary Mart, your premier destination for professional garment care. We combine expert knowledge with state-of-the-art technology to provide top-tier dry cleaning and laundry services, ensuring your clothes look and feel new with every wash.</p>
         <br>
-        <img src="Laundary.jpg" alt="Laundary image" >
+        <div><img id="id1" src="Laundary.jpg" alt="Laundary image" ></div>
         <h4><strong>OUR SERVICES</strong></h4>
         <ul>
             <li>Free Convenient Pickup & Delivery: Schedule a time, and we handle the rest.</li>
@@ -46,12 +50,17 @@
         <h4>BOOK NOW</h4>
         <form action="#">
             <label for="name">Name:</label>
-            <input id="name" type="text" placeholder="Enter your name" required>
+            <input id="name" type="text" placeholder="First name" required>
+            <br>
+             <label for="lname">Last name</label>
+            <input id="lname" type="text" placeholder="Last name" required>
+            <br>
             <label for="email">Email:</label>
-            <input id="email" type="text" placeholder="Enter your Email id" required>
+            <input id="email" type="text" placeholder="Email" required>
+            <br>
             <label for="Phone">Phone:</label>
-            <input id="Phone" type="1" maxlength="10" placeholder="Enter your contact number" required>
-            <input type="submit" for="name email phone" required>
+            <input id="Phone" type="1" maxlength="10" placeholder="phone number" required>
+            <input type="submit" required>
         </form>
     </main>
     <footer>
